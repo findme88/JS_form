@@ -124,7 +124,7 @@ $(document).ready(function() {
   $('#showFormBtn').click(function() {
     $('.inputs').toggleClass('inputs--full')
     $(this).text(() => 
-      $(this).text().includes('Показати') ? 'Скрити поля' : 'Показати поля')
+      $(this).text().includes('Показать') ? 'Скрыть поля' : 'Показать поля')
   })
   
   
